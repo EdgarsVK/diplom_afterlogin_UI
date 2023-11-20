@@ -1,4 +1,4 @@
-package config;
+package com.afterlogic.config;
 
 import org.aeonbits.owner.Config;
 

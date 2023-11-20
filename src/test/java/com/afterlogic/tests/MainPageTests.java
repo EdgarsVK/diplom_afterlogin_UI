@@ -18,7 +18,7 @@ public class MainPageTests extends TestBase {
     TestData testData = new TestData();
 
     @Test
-    @Owner("Elena Sokolova")
+    @Owner("Test User")
     @Tag("smoke")
     @DisplayName("Успешное открытие главной страницы")
     void successfulOpenMainPageTest() {
@@ -28,7 +28,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @Owner("Elena Sokolova")
+    @Owner("Test User")
     @Tag("smoke")
     @DisplayName("Проверка наличия всех табов на странице")
     void checkTabsTitlesTest() {
@@ -38,7 +38,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @Owner("Elena Sokolova")
+    @Owner("Test User")
     @Tag("smoke")
     @DisplayName("Проверка наличия всех продуктов в каталоге")
     void checkProductsTest() {
@@ -50,7 +50,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @Owner("Elena Sokolova")
+    @Owner("Test User")
     @DisplayName("Проверка заполнения формы обратной связи")
     void checkContactUsFormTest() {
         mainPage
@@ -67,7 +67,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @Owner("Elena Sokolova")
+    @Owner("Test User")
     @DisplayName("Проверка перехода в раздел новостей")
     void checkNewsSectionTest() {
         mainPage
@@ -78,7 +78,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @Owner("Elena Sokolova")
+    @Owner("Test User")
     @DisplayName("Проверка перехода в раздел политики конфиденциальности")
     void checkPrivacyPolicySectionTest() {
         mainPage

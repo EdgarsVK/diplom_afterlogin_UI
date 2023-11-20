@@ -1,19 +1,21 @@
 package com.afterlogic.tests;
 
-import com.afterlogic.helpers.Attach;
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.logevents.SelenideLogger;
-import config.WebDriverConfig;
-import io.qameta.allure.selenide.AllureSelenide;
+import static com.codeborne.selenide.Selenide.closeWebDriver;
+
+import java.util.Map;
+
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import java.util.Map;
+import com.afterlogic.config.WebDriverConfig;
+import com.afterlogic.helpers.Attach;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.logevents.SelenideLogger;
 
-import static com.codeborne.selenide.Selenide.closeWebDriver;
+import io.qameta.allure.selenide.AllureSelenide;
 
 public class TestBase {
 

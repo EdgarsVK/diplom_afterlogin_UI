@@ -19,7 +19,7 @@ public class SearchDocumentationTests extends TestBase {
     ArticlePage articlePage = new ArticlePage();
 
     @Test
-    @Owner("Elena Sokolova")
+    @Owner("Test User")
     @Tag("smoke")
     @DisplayName("Проверка поиска в документации Aurora Corporate")
     void successfulSearchDocumentationTest() {
