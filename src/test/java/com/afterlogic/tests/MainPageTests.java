@@ -78,7 +78,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    @Owner("Elena Sokolova")
+    @Owner("Edgar")
     @DisplayName("Проверка перехода в раздел политики конфиденциальности")
     void checkPrivacyPolicySectionTest() {
         mainPage
