@@ -36,7 +36,8 @@ dependencies {
             "com.github.javafaker:javafaker:$javafakerVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "org.aeonbits.owner:owner:$ownerVersion",
-            "org.slf4j:slf4j-simple:$slf4jVersion"
+            "org.slf4j:slf4j-simple:$slf4jVersion",
+            'io.github.bonigarcia:webdrivermanager:5.5.2'
     )
 }
 
