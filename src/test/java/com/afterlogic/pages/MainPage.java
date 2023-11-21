@@ -2,6 +2,7 @@ package com.afterlogic.pages;
 
 import com.afterlogic.tests.TestData;
 import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
@@ -33,7 +34,7 @@ public class MainPage {
 
     @Step("Открываем главную страницу")
     public MainPage openPage() {
-        open(baseUrl);
+        Selenide.open(baseUrl);
         $(mainBlock).shouldBe(visible, Duration.ofSeconds(10));
         return this;
     }
